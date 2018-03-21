@@ -3,4 +3,9 @@
 # VAL : INNER TARGET PATH WHERE THE FILE WILL BE PUSH ON GIT
 # IF KEY CONTAINS "*" AT END, THEN ALL CHILDREN ARE SENT TO LOCALIZATION
 # IF VAL IS NULL, THEN A LOCALIZED FILE WITH EXTENSION "Localized-LANG" WILL BE PUSH IN THE SAME INNER SRC PATH
+
+# KEY HAS TO BE THE RELATIVE PATH IN THE GIT REPOSITORY
+
+/dirOne/docx_test.docx=/dirTrgt/docx/docx_test.docx
+/dirOne/dirTwo/docx_test.docx=
 /example/dir1/test.xml=/example/dir2/target/test_fr-FR.xml
