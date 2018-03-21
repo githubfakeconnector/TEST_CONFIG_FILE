@@ -9,4 +9,5 @@
 /dirOne/docx_test.docx=/dirTrgt/docx/docx_test.docx
 /dirOne/dirTwo/docx_test.docx=
 /dirOne/dirTwo/test.json=/dirTrgt/json/test.json
+/dirOne/dirTwo/test.xlsx=/dirTrgt/xlsx/test.xlsx
 /example/dir1/test.xml=/example/dir2/target/test_fr-FR.xml
